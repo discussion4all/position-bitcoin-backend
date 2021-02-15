@@ -16,13 +16,6 @@ const setUpServer = async () => {
 
 };
 
-// createConnection().then(async () => {
-//     await setBitCoinValueIfNotExist();
-//     app.listen(5000, () => {
-//         console.log('Server is listening on port 5000');
-//     });
-// });
-
 setUpServer();
 
 process.on('SIGTERM', () => {
